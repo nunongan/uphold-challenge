@@ -1,0 +1,507 @@
+:root {
+  --P05:#6FE68A;
+  --P06:#49CC68;
+  --P07:#40B65B;
+  --P08:#329C4A;
+  --N01:#FFFFFF;
+  --N02:#F5F9FC;
+  --N03:#E4EAF2;
+  --N04:#BCCAD8;
+  --N05:#68778D;
+  --N06:#3C4A5B;
+  --N07:#1B212F;
+}
+
+.w-md-25{
+
+  width: 25% !important;
+}
+
+
+
+.w-sm-100{
+
+  width: 100% !important;
+}
+
+
+.loginBtn {
+  background: var(--P06);;
+  border: none;
+  padding: 10px 30px;
+}
+
+.loginBtn:hover{
+
+  background: var(--P08);
+}
+
+.lightDarkBtn {
+  background: var(--P06);;
+  border: none;
+  margin-right: 10px;
+}
+
+.lightDarkBtn:hover{
+  background: #3C4A5B;
+}
+
+
+.smallTitle {
+  max-width: 40ch;
+  font-weight: 400;
+}
+
+.currencyRow {
+  background-color: var(--N02);;
+  border-radius: 20px;
+}
+
+.currency-logo {
+  width: 25px;
+}
+
+/* .scrollbar {
+  max-height: 200px;
+  overflow-y: scroll;
+
+} */
+
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.bidAmount {
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.symbolCurrency {
+  padding-right: 0;
+}
+
+.currencyName {
+  padding-left: 0;
+}
+
+.dropdown-menu {
+  height: 250px;
+  overflow: auto;
+}
+
+/* .listCurrencies {
+  max-height: 150px;
+} */
+
+.amountInput {
+  background: none;
+  margin: 0;
+  border: none;
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+#dropdown-basic {
+  background: var(--N01);;
+  color: black;
+  border: none;
+  max-height: 40px;
+  margin: auto;
+  border-radius: 40px;
+}
+
+.form-control:focus,
+.btn-check:focus + .btn-primary,
+.btn-primary:focus,
+.btn-primary:active:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.dropdown-menu{
+
+  border-radius:15px;
+  max-width:50px;
+}
+
+.menu-animation {
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  opacity: 0;
+  transform: translateY(-10px);
+  min-width: 120px;
+}
+
+.menu-animation.show {
+  animation-name: menu-appear;
+  display: block;
+}
+
+.menu-animation.hide {
+  animation-name: menu-disappear;
+  display: block;
+  animation-fill-mode: forwards;
+}
+
+.footer{
+
+  border-top: 1px solid #E4EAF2;
+
+}
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.bidAmount {
+  font-weight: 500;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.symbolCurrency {
+  padding-right: 0;
+}
+
+.currencyName {
+  padding-left: 0;
+}
+
+.dropdown-menu {
+  height: 250px;
+  overflow: auto;
+}
+
+.listCurrencies {
+  max-height: 250px;
+}
+
+.amountInput {
+  background: none;
+  margin: 0;
+  border: none;
+  font-size: 40px;
+  border-radius: 20px;
+}
+
+#dropdown-basic {
+  background: var(--N01);;
+  color: black;
+  border: none;
+  max-height: 40px;
+  margin: auto;
+  border-radius: 40px;
+}
+
+.form-control:focus,
+.btn-check:focus + .btn-success,
+.btn-success:focus,
+.btn-success:active:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.dropdown-menu{
+
+  border-radius:15px;
+  max-width:50px;
+}
+
+.menu-animation {
+  animation-duration: 0.3s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+  opacity: 0;
+  transform: translateY(-10px);
+  min-width: 120px;
+}
+
+.menu-animation.show {
+  animation-name: menu-appear;
+  display: block;
+}
+
+.menu-animation.hide {
+  animation-name: menu-disappear;
+  display: block;
+  animation-fill-mode: forwards;
+}
+
+.footer{
+
+  border-top: 1px solid var(--N02);
+
+}
+
+.eachCurrency{
+
+  margin: 0 auto;
+}
+
+a{
+  text-decoration:none;
+  color:inherit;
+}
+
+a:hover,
+.navAnchor:hover{
+
+  font-weight:700;
+  transition: 0.2s ease;
+  color: var(--P08) !important;
+}
+
+#footerPrivacyLinks a{
+  
+  text-decoration:#b5d6bc underline;
+}
+
+#footerPrivacyLinks a:hover{
+  
+  color:black;
+  font-weight:normal;
+  text-decoration:#b5d6bc underline;
+}
+
+#languageSelection{
+
+  max-width: 102px;
+}
+
+.form-select{
+
+  background-image: url('../../public/assets/dropdown-icon.svg');
+  background-size: 13px 7px;
+}
+
+
+.footerLinks div{
+
+  justify-content: center;
+}
+
+.currenciesContainer{
+
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background: var(--N02);;
+  border-radius:20px;
+}
+
+
+@media (max-width: 576px){
+
+  .loginBtn{
+    
+    padding: 1px 1px;
+    width:25% !important;
+
+
+  }
+
+  .fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+  @keyframes menu-appear {
+  from {
+    opacity: 0;
+    transform: translate3d(150px, 0px, 0px);  }
+  to {
+    opacity: 1;
+    transform: translate3d(150px, 70px, 0px);  }
+}
+
+/* Define the animation for menu disappearance */
+@keyframes menu-disappear {
+  from {
+    opacity: 1;
+    transform: translate3d(503.2px, 67.2px, 0px);  }
+  to {
+    opacity: 0;
+    transform: translate3d(503.2px, 67.2px, 0px);  }
+}
+
+.listCurrencies {
+  max-height: 360px;
+}
+.scrollbar {
+  max-height: 360px;
+  overflow-y: scroll;
+
+}
+
+
+}
+@media (min-width: 576px){
+
+  .loginBtn{
+    
+    padding: 1px 1px;
+    width:25% !important;
+
+
+  }
+
+  .listCurrencies {
+    max-height: 360px;
+  }
+  .scrollbar {
+    max-height: 360px;
+    overflow-y: scroll;
+  
+  }
+
+  @keyframes menu-appear {
+    from {
+      opacity: 0;
+      transform: translate3d(150px, 0px, 0px);  }
+    to {
+      opacity: 1;
+      transform: translate3d(150px, 70px, 0px);  }
+  }
+  
+  /* Define the animation for menu disappearance */
+  @keyframes menu-disappear {
+    from {
+      opacity: 1;
+      transform: translate3d(503.2px, 67.2px, 0px);  }
+    to {
+      opacity: 0;
+      transform: translate3d(503.2px, 67.2px, 0px);  }
+  }
+
+}
+@media(min-width: 768px){
+
+
+  
+
+  @keyframes menu-appear {
+    from {
+      opacity: 0;
+      transform: translate3d(260px, 0px, 0px);  }
+    to {
+      opacity: 1;
+      transform: translate3d(260px, 70px, 0px);  }
+  }
+  
+  /* Define the animation for menu disappearance */
+  @keyframes menu-disappear {
+    from {
+      opacity: 1;
+      transform: translate3d(503.2px, 67.2px, 0px);  }
+    to {
+      opacity: 0;
+      transform: translate3d(503.2px, 67.2px, 0px);  }
+  }
+
+  .listCurrencies {
+    max-height: 360px;
+  }
+  .scrollbar {
+    max-height: 360px;
+    overflow-y: scroll;
+  
+  }
+
+}
+@media(min-width: 992px){
+  .w-lg-100{
+
+    width: 100% !important;
+  }
+
+  .loginBtn{
+    
+    padding: 10px 30px;
+
+  }
+
+  .listCurrencies {
+    max-height:550px;
+  }
+  .scrollbar {
+    max-height: 550px;
+    overflow-y: scroll;
+  
+  }
+}
+@media(min-width: 1200px){
+
+  @keyframes menu-appear {
+    from {
+      opacity: 0;
+      transform: translate3d(503.2px, 67.2px, 0px);  }
+    to {
+      opacity: 1;  .listCurrencies {
+        max-height: 360px;
+      }
+      .scrollbar {
+        max-height: 360px;
+        overflow-y: scroll;
+      
+      }
+      transform: translate3d(503.2px, 67.2px, 0px);  }
+
+      
+  }
+  
+  /* Define the animation for menu disappearance */
+  @keyframes menu-disappear {
+    from {
+      opacity: 1;
+      transform: translate3d(503.2px, 67.2px, 0px);  }
+    to {
+      opacity: 0;
+      transform: translate3d(503.2px, 67.2px, 0px);  }
+  }
+
+  .listCurrencies {
+    max-height:600px;
+  }
+  .scrollbar {
+    max-height: 600px;
+    overflow-y: scroll;
+  
+  }
+  
+
+}
+@media(min-width: 1400px){
+  .listCurrencies {
+    max-height:650px;
+  }
+  .scrollbar {
+    max-height: 650px;
+    overflow-y: scroll;
+  
+  }
+}
