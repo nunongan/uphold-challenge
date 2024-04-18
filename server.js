@@ -5,12 +5,13 @@ const app = express();
 const port = process.env.PORT || 3000; // Use the same port as the client-side React app
 
 // Define a route to proxy your API request
+// Define a route to proxy your API request
 app.get("/api/fetchRates/:currencyOne", async (req, res) => {
   const { currencyOne } = req.params;
 
   try {
     const response = await sdk.getTicker(currencyOne);
-    res.json(response);
+    res.send(JSON.stringify(response)); // Send the JSON response as a string
   } catch (error) {
     console.error("Error fetching rates:", error);
     res.status(500).json({ error: "Error fetching rates" });
